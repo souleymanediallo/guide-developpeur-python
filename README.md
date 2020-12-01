@@ -13,22 +13,23 @@ Pour commencer à utiliser Dokku, vous aurez besoin d'un système qui répond au
 ## Conditions préalables
 1. Créer un compte **[DigitalOcean](https://cloud.digitalocean.com/)** 
 2. S'identifier sur digitalocean puis créer un Droplet
-Les étapes à suivre : Create Dokku Droplet > Choisir Marketplace > Basic > $5/mo > London > Password > Create root password:motdepasse > Create Droplet
+*Les étapes à suivre :*
+``Create Dokku Droplet > Choisir Marketplace > Basic > $5/mo > London > Password > Create root password:motdepasse > Create Droplet``
 
 ## Configurez votre VPS
 
-ssh root@your_ip_address
+``ssh root@your_ip_address``
 
 Lorsque vous avez configuré votre droplet, vous avez ajouté un mot de passe root, vous en avez besoin ici pour exécuter les commandes sudo.
 
-'''sudo apt update'''
-'''sudo apt upgrade'''
+``sudo apt update``
+``sudo apt upgrade``
 
 **ajouter un utilisateur limité**
 
-'adduser votre_nom_utilisateur'
-'adduser votre_nom_utilisateur sudo'
+``adduser votre_nom_utilisateur``
+``adduser votre_nom_utilisateur sudo``
 
-Vous pouvez maintenant fermer votre session avec la commande '\q' et vous reconnecter avec
+Vous pouvez maintenant fermer votre session avec la commande ``\q`` et vous reconnecter avec
 
-'ssh votre_nom_utilisateur @ votre_adresse_ip'
+``ssh votre_nom_utilisateur @ votre_adresse_ip``
