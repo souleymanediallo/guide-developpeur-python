@@ -1,1 +1,1 @@
-# guide-developpeur-python
+# Comment déployer un projet Django sur Digital Ocean
