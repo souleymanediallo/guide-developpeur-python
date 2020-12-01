@@ -21,8 +21,8 @@ ssh root@your_ip_address
 
 Lorsque vous avez configuré votre droplet, vous avez ajouté un mot de passe root, vous en avez besoin ici pour exécuter les commandes sudo.
 
-'sudo apt update'
-'sudo apt upgrade'
+'''sudo apt update'''
+'''sudo apt upgrade'''
 
 **ajouter un utilisateur limité**
 
